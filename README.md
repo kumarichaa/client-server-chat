@@ -1,16 +1,16 @@
 ### TCP/UDP CHAT APPLICATION
 
-## Description
+### Description
 
 This project is a simple client-server chat application that supports both TCP and UDP protocols. It allows multiple clients to connect and exchange messages in real-time.
 
-## Features
+### Features
 
 - Supports both TCP and UDP communication
 - Multiple clients can join the chat
 - Real-time message broadcasting
 - Simple GUI chat window for enhanced user experience
-- Java and Swing 
+- Java Networking AWT and Swing concepts 
 
 
 ### Application demo
@@ -18,7 +18,7 @@ This project is a simple client-server chat application that supports both TCP a
     $ java -cp ".:/path/mysql-connector-j-9.3.0/mysql-connector-j-9.3.0.jar" TCPServer.java 
 ![TCPServer](./image/TCPServer_Start.png)
 
-    ###TCPClient
+    ### TCPClient
     $ java /path/TCPClientGUI.java
 ![TCPClient_connected](./image/TCPClient-Connected.png)
 ![TCPClient](./image/TCPClientGUI.png)
