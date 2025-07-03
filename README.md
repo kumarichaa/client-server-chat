@@ -37,6 +37,9 @@ This project is a simple client-server chat application that supports both TCP a
         mysql> EXIT;
 
 ![database_details](./image/database_details.png)
+
+
+    ### Disconnected Message
 ![Disconnected_message](./image/Disconnected_message.png)
 
 
