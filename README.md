@@ -8,9 +8,12 @@ This project is a simple client-server chat application that supports both TCP a
 
 - Supports both TCP and UDP communication
 - Multiple clients can join the chat
-- Real-time message broadcasting
-- Simple GUI chat window for enhanced user experience
-- Java Networking AWT and Swing concepts 
+- Real-time messaging
+- Interactive GUI built using Java AWT and Swing
+- Demonstrates Java Networking concepts in a practical scenario
+- MySQL integration for logging/storing messages or user details
+- JDBC-based connection using `mysql-connector-j-9.3.0.jar`
+
 
 
 ### Application demo
@@ -22,6 +25,16 @@ This project is a simple client-server chat application that supports both TCP a
     $ java /path/TCPClientGUI.java
 ![TCPClient_connected](./image/TCPClient-Connected.png)
 ![TCPClient](./image/TCPClientGUI.png)
+
+    ### Database Integration
+    The application uses MySQL to store client login or registration information. You can interact with the database as follows:    
+    $ mysql -u root -p
+    $ Enter Your Password
+        mysql> SHOW DATABASES;
+        mysql> USE chatdb;
+        mysql> SHOW TABLES;
+        mysql> SELECT * FROM clients; 
+        mysql> EXIT;
 
 ![database_details](./image/database_details.png)
 ![Disconnected_message](./image/Disconnected_message.png)
@@ -35,3 +48,7 @@ This project is a simple client-server chat application that supports both TCP a
     $ java /path/UDPClientGUI.java
 ![UDPClient](./image/UDPClientGUI.png)
 
+
+Note:
+
+This project is created for academic purposes. 
